@@ -1,6 +1,6 @@
-#!/bin/bash
-echo "Starting Python backend..."
-python3 backend/eye_tracking.py &
+# PowerShell script to run the project
+Write-Host "Starting Python backend..."
+Start-Process "python" -ArgumentList "backend/eye_tracking.py"
 
-echo "Launching web application..."
-open frontend/index.html
+Write-Host "Launching web application..."
+Start-Process "frontend/index.html"
