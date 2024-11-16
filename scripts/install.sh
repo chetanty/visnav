@@ -1,8 +1,8 @@
-#!/bin/bash
-echo "Installing Python dependencies..."
+# PowerShell script to install Python dependencies
+Write-Host "Installing Python dependencies..."
 pip install -r backend/requirements.txt
 
-echo "Setting up npm packages..."
+Write-Host "Setting up npm packages (if any)..."
 npm install
 
-echo "Installation complete!"
+Write-Host "Installation complete!"

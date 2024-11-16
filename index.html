@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eye Tracking Cursor Control</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
 </head>
 <body>
     <h1>Hands-Free Cursor Control</h1>
     <div id="cursor"></div>
-    <p>Move your eyes to control the cursor.</p>
-    <button id="calibrate">Calibrate Eye Tracking</button>
-    <button onclick="leftClick()">Left Click</button>
-    <button onclick="rightClick()">Right Click</button>
+    <button id="calibrate">Start Calibration</button>
     <script src="app.js"></script>
 </body>
 </html>
